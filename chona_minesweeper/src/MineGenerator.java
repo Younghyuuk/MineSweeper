@@ -5,6 +5,7 @@ import java.util.Random;
 public class MineGenerator {
     public static void main(String[] args) {
         int numFields = 3; // Number of random fields to generate
+
         try {
             FileWriter writer = new FileWriter("mineSweep.txt");
 

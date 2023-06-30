@@ -23,6 +23,17 @@ public class MineSweeper {
             int rows = scanner.nextInt();
             int cols = scanner.nextInt();
 
+
+            if (rows == 0 && cols == 0) {
+                break;
+            }
+
+
+            if (fieldNum > 1) {
+                System.out.println();
+            }
+
+
             char[][] field = new char[rows][cols];
             for (int i = 0; i < rows; i++) {
                 String line = scanner.next();
@@ -52,6 +63,7 @@ public class MineSweeper {
             }
             System.out.println();
         }
+
         System.out.println();
     }
 
