@@ -35,11 +35,11 @@ public class Main {
         }
         System.out.println("0 0");
     }
-    private static void createFields(final int row, final int col, boolean allMines) {
-        System.out.println(row + " " + col);
-        for (int i = 0; i < row; i++){
-            for (int j = 0; j <col; j++){
-                if (allMines){
+    private static void createFields(final int theRow, final int theCol, boolean theMines) {
+        System.out.println(theRow + " " + theCol);
+        for (int i = 0; i < theRow; i++){
+            for (int j = 0; j < theCol; j++){
+                if (theMines){
                     System.out.print(".");
                 }else {
                     System.out.print("*");
@@ -48,10 +48,10 @@ public class Main {
             System.out.println("");
         }
     }
-    private static void createRandomFields(final int row, final int col) {
-        System.out.println(row + " " + col);
-        for (int i = 0; i < row; i++){
-            for (int j = 0; j <col; j++){
+    private static void createRandomFields(final int theRow, final int theCol) {
+        System.out.println(theRow + " " + theCol);
+        for (int i = 0; i < theRow; i++){
+            for (int j = 0; j < theCol; j++){
                 final int dotOrStar = rand.nextInt(2);
                 if (dotOrStar == 0){
                     System.out.print(".");
