@@ -21,9 +21,10 @@ public class Main {
         // 100x1 random number of mines.
         createRandomFields(ONE,ONE_HUNDRED);
         createRandomFields(ONE,ONE_HUNDRED);
-        // 1 x100 random number of mines.
+        // 1x100 random number of mines.
         createFields(ONE_HUNDRED,ONE,true);
         createFields(ONE_HUNDRED,ONE,false);
+        // 100x100 random number of mines.
         createRandomFields(ONE_HUNDRED,ONE_HUNDRED);
 
         // Random sized fields with random assertions of mines.

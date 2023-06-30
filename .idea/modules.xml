@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/MineSweeper_HalimLee/MineSweeper_HalimLee.iml" filepath="$PROJECT_DIR$/MineSweeper_HalimLee/MineSweeper_HalimLee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeeH_MineSweeper/MineSweeper_HalimLee.iml" filepath="$PROJECT_DIR$/LeeH_MineSweeper/MineSweeper_HalimLee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OfficalSolution_MineSweeper/OfficalSolution_MineSweeper.iml" filepath="$PROJECT_DIR$/OfficalSolution_MineSweeper/OfficalSolution_MineSweeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/TestMineSweeper/TestMineSweeper.iml" filepath="$PROJECT_DIR$/TestMineSweeper/TestMineSweeper.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/assignment1Minesweeper.iml" filepath="$PROJECT_DIR$/.idea/assignment1Minesweeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/chonA_MineSweeper/chonA_MineSweeper.iml" filepath="$PROJECT_DIR$/chonA_MineSweeper/chonA_MineSweeper.iml" />
     </modules>
   </component>
 </project>
