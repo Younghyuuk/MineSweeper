@@ -18,28 +18,28 @@ public class MineSweeper {
     /**
      * The number that represents each field in sequential order.
      */
-    private int myFieldNumber;
+    int myFieldNumber;
 
     /**
      * Public constructor to construct minesweeper boards.
      *
-     * @param theInputFile The input file to read into the program.
      */
 
-    public MineSweeper(final Scanner theInputFile) {
+    public MineSweeper(final Scanner theInput) {
         myFieldNumber = 1;
         myRows = 1;
-        start(theInputFile);
+        myCols = 1;
+        start(theInput);
     }
     void start(final Scanner theInput) {
 
-        while (theInput.hasNextLine()) {
-            createField(theInput);
-            if (myRows == 0 && myCols == 0){
-                break;
+            while (theInput.hasNextLine()) {
+                createField(theInput);
+                if (myRows == 0 && myCols == 0) {
+                    break;
+                }
+                decodeField(myField, myFieldNumber);
             }
-            decodeField(myField, myFieldNumber);
-        }
 
     }
     /**

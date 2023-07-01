@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Main {
+public class Generator {
     private static final Random rand = new Random();
     private static final int NUMBER_OF_FIELDS = 30;
     private static final int ONE_HUNDRED = 100;
