@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1344a465-060f-4346-814d-c713e8c6907a" name="Changes" comment="official version">
-      <change afterPath="$PROJECT_DIR$/OfficalSolution_MineSweeper/src/MineSweeperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OfficalSolution_MineSweeper/src/MineSweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/OfficalSolution_MineSweeper/src/MineSweeper.java" afterDir="false" />
-    </list>
+    <list default="true" id="1344a465-060f-4346-814d-c713e8c6907a" name="Changes" comment="official version" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +41,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "19",
-    "last_opened_file_path": "C:/Users/leeha/Desktop/360 QA/assignment1Minesweeper/YoungM_MineSweeper",
+    "last_opened_file_path": "C:/Users/leeha/Desktop/360 QA/assignment1Minesweeper",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -181,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688195465591</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="official version">
+      <created>1688201319270</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1688201319270</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

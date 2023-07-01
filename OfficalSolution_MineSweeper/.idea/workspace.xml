@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7a3551ae-1f1e-4de2-9337-379b33289160" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="7a3551ae-1f1e-4de2-9337-379b33289160" name="Changes" comment="junit">
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OfficalSolution_MineSweeper.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OfficalSolution_MineSweeper.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OfficalSolution_MineSweeper/MineSweeperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OfficalSolution_MineSweeper/MineSweeperTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MineSweeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MineSweeper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MineSweeperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MineSweeperTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestMineSweeper/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestMineSweeper/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestMineSweeper/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestMineSweeper/TestMineSweeper.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestMineSweeper/out/production/TestMineSweeper/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestMineSweeper/src/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestMineSweeper/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TestMineSweeper/src/ot.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +35,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/leeha/Desktop/360 QA/assignment1Minesweeper/Generator"
+    "last_opened_file_path": "C:/Users/leeha/Desktop/Eclipse/leeh10-assignment5"
   }
 }]]></component>
   <component name="RunManager" selected="JUnit.MineSweeperTest">
@@ -79,6 +71,18 @@
       <option name="presentableId" value="Default" />
       <updated>1688196641280</updated>
     </task>
+    <task id="LOCAL-00001" summary="junit">
+      <created>1688201140243</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1688201140243</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="junit" />
+    <option name="LAST_COMMIT_MESSAGE" value="junit" />
   </component>
 </project>
