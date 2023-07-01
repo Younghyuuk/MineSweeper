@@ -27,8 +27,6 @@ public class MineSweeperTest {
         Assertions.assertArrayEquals(expectedField, oneByOne);
 
     }
-
-//*****************************************************************************************
     @Test
     public void testDecodeField_OneByOne_AllMines() {
         char[][] oneByOne = {
@@ -62,37 +60,6 @@ public class MineSweeperTest {
         };
         Assertions.assertArrayEquals(expectedField, tenByTen);
     }
-//
-//    @Test
-//    public void testDecodeField_OneByHundred_AllEmpty() {
-//        char[][] field = new char[1][100];
-//        for (int i = 0; i < 1; i++) {
-//            for (int j = 0; j < 100; j++) {
-//                field[i][j] = '.';
-//            }
-//        }
-//
-//        String expectedOutput = "Field #1:\n" +
-//                "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\n\n";
-//
-//        MineSweeper mineSweeper = new MineSweeper(new Scanner(System.in));
-//        assertEquals(expectedOutput, getFormattedOutput(() -> mineSweeper.decodeField(field, 1)));
-//    }
-
-//    @Test
-//    public void testDecodeField_HundredByHundred_AllMines() {
-//        char[][] field = new char[100][100];
-//        for (int i = 0; i < 100; i++) {
-//            for (int j = 0; j < 100; j++) {
-//                field[i][j] = '*';
-//            }
-//        }
-//    }
-//********************************************************************************************************
-
-
-
-
     @Test
     public void testDecodeField() {
         char[][] field = {
