@@ -28,10 +28,9 @@ public class MineSweeper {
                 break;
             }
 
-
-            if (fieldNum > 1) {
-                System.out.println();
-            }
+//            if (fieldNum > 1) {
+//                System.out.println();
+//            }
 
 
             char[][] field = new char[rows][cols];
