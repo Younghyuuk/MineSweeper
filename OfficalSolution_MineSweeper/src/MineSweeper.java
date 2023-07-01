@@ -6,15 +6,15 @@ public class MineSweeper {
     /**
      * A 2D array to represent the minesweeper game board.
      */
-    private char[][] myField;
+    char[][] myField;
     /**
      * The amount of rows a given field contains.
      */
-    private int myRows;
+    int myRows;
     /**
      * The amount of columns a given field contains.
      */
-    private int myCols;
+    int myCols;
     /**
      * The number that represents each field in sequential order.
      */
@@ -31,8 +31,7 @@ public class MineSweeper {
         myRows = 1;
         start(theInputFile);
     }
-
-    private void start(final Scanner theInput) {
+    void start(final Scanner theInput) {
 
         while (theInput.hasNextLine()) {
             createField(theInput);
@@ -43,12 +42,11 @@ public class MineSweeper {
         }
 
     }
-
     /**
      * Creating the Field depending on its n by m size.
      * @param theInput the scanner we pass through to read the input file.
      * */
-    private void createField(final Scanner theInput) {
+    void createField(final Scanner theInput) {
         final Scanner scanner = theInput;
         myRows = scanner.nextInt();
         myCols = scanner.nextInt();
@@ -58,8 +56,7 @@ public class MineSweeper {
             myField[i] = line.toCharArray();
         }
     }
-
-    private void decodeField(final char[][] theField, final int theFieldNum) {
+    void decodeField(final char[][] theField, final int theFieldNum) {
         System.out.println("Field #" + myFieldNumber++ + ":");
         // vertically looking
         int rows = theField.length;
@@ -78,10 +75,8 @@ public class MineSweeper {
         }
         System.out.println();
     }
-
-    private int countAdjacentMines(final char[][] theField, final int theRow, final int theCol) {
+    int countAdjacentMines(final char[][] theField, final int theRow, final int theCol) {
         int count = 0;
-
         //coordinates for adjacent
         final int[] dx = {-1, -1, -1, 0, 0, 1, 1, 1};
         final int[] dy = {-1, 0, 1, -1, 1, -1, 0, 1};
@@ -97,5 +92,4 @@ public class MineSweeper {
         }
         return count;
     }
-
 }
